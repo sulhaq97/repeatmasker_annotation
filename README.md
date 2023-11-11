@@ -13,3 +13,8 @@ The script should be run in the following manner
 ```
 sbatch repeat.masker.running.sh
 ```
+
+### Output
+The output of the script is two files:
+* A reformatted text file called "repeatmasker.reformat.txt" which will contain RepeatMasker data
+* An RData file containing a GRange object indicating repeat elements in the genome by chromosome location, repeat name, repeat class, and repeat family
