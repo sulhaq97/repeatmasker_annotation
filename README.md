@@ -5,6 +5,7 @@ Considering the size of the data, this should be downloaded to a high-performanc
 
 ### Dependencies
 * R version 3.6.1 (or above)
+* R libraries lincluding rtracklayer and GenomicRanges
 * BASH
 * Linux-powered high-performance computing cluster with a SLURM workload manager
 
